@@ -15,7 +15,7 @@
 3 Sections - definition for section and subsection
  3.1 Services
  3.2 Portfolio
- 3.3 About
+ 3.3 Acerca de
  3.4 Clients
  3.5 Price table
  3.6 Newsletter
@@ -475,7 +475,7 @@ p {
     display: none;
 }
 /*
-3.3 About
+3.3 Acerca de
 ******************************************************************/
  .team .thumbnail {
     box-sizing: border-box;
@@ -499,10 +499,10 @@ p {
 .team .thumbnail .mask, .team .thumbnail .mask h3, .team .thumbnail .mask p, .team .thumbnail:hover h3, .team .thumbnail:hover .social a:hover {
     color:#181A17;
 }
-.about-text {
+.Acerca de-text {
     margin-top:30px;
 }
-.about-text p {
+.Acerca de-text p {
     padding:0;
     font-size:16px;
 }

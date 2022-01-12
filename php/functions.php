@@ -4,7 +4,7 @@
 function cleanEvilTags($data) {
   $data = preg_replace("/javascript/i", "j&#097;v&#097;script",$data);
   $data = preg_replace("/alert/i", "&#097;lert",$data);
-  $data = preg_replace("/about:/i", "&#097;bout:",$data);
+  $data = preg_replace("/Acerca de:/i", "&#097;bout:",$data);
   $data = preg_replace("/onmouseover/i", "&#111;nmouseover",$data);
   $data = preg_replace("/onclick/i", "&#111;nclick",$data);
   $data = preg_replace("/onload/i", "&#111;nload",$data);
